@@ -7,7 +7,7 @@
 
     <UsingTask
         TaskName="CustomTask.TestTask"
-        AssemblyFile="..\CustomTask\bin\Debug\net5.0\CustomTask.dll"/>
+        AssemblyFile="..\CustomTask\bin\Debug\netstandard2.1\CustomTask.dll"/>
 
     <Target Name="MyTarget" BeforeTargets="Build">
         <TestTask />
